@@ -1,0 +1,245 @@
+/* ***************** HOME ***************** */
+/* ***************** HOME ***************** */
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@400&family=Murecho:wght@300&family=Poppins:wght@300&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+.blog-header {
+	line-height: 1;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+	font-family: "Comfortaa", cursive;
+	font-size: 2.75rem;
+}
+
+.link-secondary {
+	font-size: 0.85rem;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+}
+
+.nav-scroller {
+	position: relative;
+	z-index: 2;
+	height: 2.75rem;
+	overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	text-align: center;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+}
+
+.active {
+	color: black;
+}
+
+@media (max-width: 530px) {
+	.hide{
+		display: none !important;
+	}
+	.blog-header-logo {
+		font-size: 2.25rem;
+	}
+	.link-secondary {
+		font-size: 0.8rem;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Murecho", sans-serif;
+}
+
+.display-4 {
+	font-size: 2.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.line,
+.link {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.025rem;
+}
+
+.link:hover {
+	color: #0b5bd3;
+}
+
+.date {
+	font-size: 0.9rem;
+}
+
+.card-link {
+	font-family: "Poppins", sans-serif;
+}
+
+.conti-link {
+	font-family: "Poppins", sans-serif;
+	font-size: 0.9rem;
+}
+
+@media (max-width: 530px) {
+	.display-4 {
+		font-size: 1.8rem;
+	}
+	.line,
+	.link,
+	.card-link,
+	.date {
+		font-size: 0.9rem;
+	}
+	.conti-link {
+		font-size: 0.8rem;
+	}
+}
+
+.card-img-right {
+	height: 100%;
+	border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+	flex: 0 0 auto;
+}
+
+.h-250 {
+	height: 250px;
+}
+@media (min-width: 768px) {
+	.h-md-250 {
+		height: 250px;
+	}
+}
+
+.blog-pagination {
+	margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+	border-radius: 2rem;
+}
+
+.blog-post {
+	margin-bottom: 4rem;
+}
+
+.blog-footer {
+	padding: 2.5rem 0;
+	color: #727272;
+	text-align: center;
+	background-color: #f9f9f9;
+	border-top: 0.05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+	margin-bottom: 0;
+}
+
+@media (max-width: 530px) {
+	.blog-footer {
+		font-size: 0.9rem;
+	}
+	.socials {
+		display: flex;
+		justify-content: space-evenly;
+	}
+}
+
+/* ***************** ABOUT ***************** */
+/* ***************** ABOUT ***************** */
+
+.heading {
+    color: #727272;
+    font-weight: 100;
+}
+
+.quote {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.quote p {
+    font-family: "Comfortaa", cursive;
+    font-size: 1.8rem;
+    padding: 1.75rem 0;
+    margin: 0
+}
+
+.quote hr {
+    width: 35%;
+    margin: auto;
+}
+
+@media (max-width: 760px) {
+  .quote p{
+    font-size: 1.5rem;
+  }
+}  
+
+@media (max-width: 530px) {
+    .quote p{
+      font-size: 1.2rem;
+    }
+}
+
+.makewhite {
+  border-bottom: .15px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+/* ***************** LIFESTYLE ***************** */
+/* ***************** LIFESTYLE ***************** */
+
+/* .accordion-button:not(.collapsed) {
+  color: #343a40;
+  background-color: #0d6efd;
+  background-color: var(--bg-dark);
+} */
+
+.card-title {
+  font-size: 1.75rem;
+}
+
+@media (max-width: 530px) {
+  .card-title {
+    font-size: 1.3rem;
+  }
+  .card-body {
+    font-size: 1.025rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .hide-991{
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .hide-767{
+    display: none;
+  }
+}
+
